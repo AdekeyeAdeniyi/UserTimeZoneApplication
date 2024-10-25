@@ -29,7 +29,7 @@ class BatchUpdateJob implements ShouldQueue
      */
     public function handle(): void
     {
-        $endpoint = env('API_UPDATE_URL'); 
+        $endpoint = env('API_UPDATE_URL', 'https://api.fakeendpoint.com/update'); 
         $payload = ['users' => $this->userChunk];
 
          try {
