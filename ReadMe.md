@@ -33,7 +33,7 @@ This project is a basic Laravel application that includes the following tasks:
 2. Navigate to the project directory:
 
    ```bash
-   cd user-timezone-app
+   cd userTimeZoneApplication
    ```
 
 3. Install the dependencies:
